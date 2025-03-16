@@ -12,6 +12,7 @@ const Footer = ({ children }) => {
       {new Date().getFullYear()} ©{' '}
       <LogoContainer>
         <ApolloIcon width="100px" height="40px" />
+        DennysWamb
       </LogoContainer>
     </FooterContainer>
   );
