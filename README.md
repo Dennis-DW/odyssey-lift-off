@@ -1,35 +1,30 @@
-# Odyssey Lift-off I: Basics
+# Apollo Graph Developer - Associate Certification
 
-Welcome to the companion app of Odyssey Lift-off I! You can [find the course lessons and instructions on Odyssey](https://odyssey.apollographql.com/lift-off-part1), Apollo's learning platform.
+Welcome to the companion app of Odyssey Lift-off! This project is designed to help me learn the basics of building a full-stack application using Apollo GraphQL and React.  
+This is my [certification](https://www.apollographql.com/tutorials/certifications/159603f6-5a89-4b57-aa9e-efe88ece5c7f).
 
-You can [preview the completed demo app here](https://odyssey-catstronauts.netlify.app/).
+## Project Overview
 
-## How to use this repo
+This project consists of a GraphQL server and a React client application. The server provides a GraphQL API for querying and mutating data, while the client application consumes this API to display and interact with the data.
 
-The course will walk you step by step on how to implement the features you see in the demo app. This codebase is the starting point of your journey!
+### Folder Structure
 
-There are 3 main folders:
+- [`server`](server): Contains the GraphQL server implementation.
+- [`client`](client): Contains the React client application.
+- `final`: Contains the final version of both the server and client with all features implemented.
 
-- `server`: The starting point of our GraphQL server.
-- `client`: The starting point of our React application.
-- `final`: The final stage of both the server and client folders, with all of the steps and code completed!
+## Getting Started
 
-To get started:
+To get started with the project, follow these steps:
 
-1. Navigate to the `server` folder.
-1. Run `npm install`.
-1. Run `npm start`.
+1. Navigate to the [`server`](server) folder.
+2. Run `npm install` to install the server dependencies.
+3. Run `npm start` to start the GraphQL API server.
 
-This will start the GraphQL API server.
+In another terminal window:
 
-In another terminal window,
+1. Navigate to the [`client`](client) folder.
+2. Run `npm install` to install the client dependencies.
+3. Run `npm start` to start the React application.
 
-1. Navigate to the `client` folder.
-1. Run `npm install`.
-1. Run `npm start`.
-
-This will open up `localhost:3000` in your web browser.
-
-## Getting Help
-
-For any issues or problems concerning the course content, please refer to the [Odyssey topic in our community forums](https://community.apollographql.com/tags/c/help/6/odyssey).
+This will open up `localhost:3000` in your web browser, where you can interact with the application.
